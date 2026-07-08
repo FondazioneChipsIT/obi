@@ -1,0 +1,18 @@
+obi:
+  incdirs: [
+    include/,
+    ../common_cells/include/,
+  ]
+  files: [
+    src/obi_pkg.sv,
+    src/obi_intf.sv,
+    src/obi_rready_converter.sv,
+    src/apb_to_obi.sv,
+    src/obi_atop_resolver.sv,
+    src/obi_cut.sv,
+    src/obi_demux.sv,
+    src/obi_err_sbr.sv,
+    src/obi_mux.sv,
+    src/obi_sram_shim.sv,
+    src/obi_xbar.sv,
+  ]
